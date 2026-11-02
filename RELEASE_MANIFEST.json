@@ -1,0 +1,1249 @@
+{
+  "version": "0.2.0-alpha",
+  "created_utc": "2026-10-28T03:10:16.661098+00:00",
+  "repo_root": "cerebro-empresarial",
+  "unit_tests": 34,
+  "smoke": "PASS",
+  "doctor_without_deps": "PASS",
+  "prepublish_audit": "PASS",
+  "asset_contract": "vNext-0.9",
+  "methodology": "vNext-1.0R",
+  "limitations": [
+    "not tested in Obsidian GUI",
+    "not installed on user computer",
+    "semantic agent retrieval not validated",
+    "no remote integration or official data writing"
+  ],
+  "files": [
+    {
+      "path": ".agents/skills/ce-calidad-repositorio/SKILL.md",
+      "sha256": "bf924efed9f49eee95026825cfe9d5ed7bca0feacdea3c899349ccef3e5cc849",
+      "bytes": 1191
+    },
+    {
+      "path": ".agents/skills/ce-cambios/SKILL.md",
+      "sha256": "e9650e728bd88b51556949d1a8d25ffb7e31d1e6352dc625edf77d2e54e20c08",
+      "bytes": 1151
+    },
+    {
+      "path": ".agents/skills/ce-consulta/SKILL.md",
+      "sha256": "7c9f1967fee348bfbce25127fbdadfccf4d170ffaf5d5117ed8163ab4f09efd1",
+      "bytes": 1323
+    },
+    {
+      "path": ".agents/skills/ce-continuidad/SKILL.md",
+      "sha256": "27de9cd7ee11dc0677a21d03858802ba65d604690c9d4d5a3426fbe8bf51db67",
+      "bytes": 1041
+    },
+    {
+      "path": ".agents/skills/ce-descubrimiento/SKILL.md",
+      "sha256": "494103bad4eb4a7bf647506c62a2801d356f10c9eb0731c13faabc4971185160",
+      "bytes": 1479
+    },
+    {
+      "path": ".agents/skills/ce-documentacion/SKILL.md",
+      "sha256": "0ab4cac21b886e76c35b4da048089118f4eac798656e1c08ce274540d77e4dde",
+      "bytes": 1644
+    },
+    {
+      "path": ".agents/skills/ce-evaluar-recurso/SKILL.md",
+      "sha256": "2fe8ac109f0a441617e60f303834f105b20b10989fcc70ea0feb74ab244a4b20",
+      "bytes": 1253
+    },
+    {
+      "path": ".agents/skills/ce-instalacion/SKILL.md",
+      "sha256": "a542df44a27a8e62b9202693639bbd4b2922aa569285100f59349d8f778c1890",
+      "bytes": 1573
+    },
+    {
+      "path": ".agents/skills/ce-investigacion/SKILL.md",
+      "sha256": "8e270b41c61435905c7e5b144fa2451577f7f3e5f3c7f18d140c4d1f8ac347b4",
+      "bytes": 1186
+    },
+    {
+      "path": ".agents/skills/ce-modelo-relaciones/SKILL.md",
+      "sha256": "a4681a3d8f4fad6da506fbbb150219a7dbaba63427195d233b8ecbf6630a1000",
+      "bytes": 1351
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha256": "eacb8ac75669d948c9550a162d6f94328d19df3e1a857f55d50097fe568e607a",
+      "bytes": 700
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "847c443677a062c39304ded5b58246069184ed1e8094d20e8b807a7953bf7ea5",
+      "bytes": 503
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "454f6d01e1d36ef80e464e7b1332f9a9a648110884e68e783768285a28b5f3e3",
+      "bytes": 3122
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "73f0d9238e7eef022335c3bf53ba4912a1372dd96b4497dcf0d6cc47fa3327f8",
+      "bytes": 1276
+    },
+    {
+      "path": "EMPIEZA_AQUI.md",
+      "sha256": "bad49a885d0e997b5bc842a7210b99c658483abe30acf412638b9d76aa337ca4",
+      "bytes": 1436
+    },
+    {
+      "path": "PROMPT_INICIO_CODEX.md",
+      "sha256": "bad49a885d0e997b5bc842a7210b99c658483abe30acf412638b9d76aa337ca4",
+      "bytes": 1436
+    },
+    {
+      "path": "PROMPT_SUBIR_A_GITHUB.md",
+      "sha256": "a334fc8b225e0b8883ba9cf16c27ff3534ad128297df99f75bf767e507478572",
+      "bytes": 1419
+    },
+    {
+      "path": "README.md",
+      "sha256": "2f82c1e827331893a0859fb381c75e8f6b065d1c019cb961a9b8ce4c2f120e03",
+      "bytes": 5824
+    },
+    {
+      "path": "contratos/vNext-0.9/Contrato_Traspaso_vNext.md",
+      "sha256": "96b5ca008b9aecd556ecd5913b63f8bcbd58dc151e10d21b0f3b21eaaec4c88c",
+      "bytes": 15650
+    },
+    {
+      "path": "contratos/vNext-0.9/Esquema_Manifiesto_vNext.schema.json",
+      "sha256": "d1d667166817141b737c2cb6f581ca5a75868b0fa2533d58c53992a54fca434c",
+      "bytes": 13311
+    },
+    {
+      "path": "contratos/vNext-0.9/Validador_de_Traspaso.py",
+      "sha256": "57a0b74d13bd55d741ba49340f832c90326e0e6cdf2e76e9dcb1d38bb2f76742",
+      "bytes": 6318
+    },
+    {
+      "path": "docs/ACTUALIZACIONES_Y_ROLLBACK.md",
+      "sha256": "01a1858712592d3ae4f5fdf39473763e130ec959494b6e5c2819784c2dd7c80f",
+      "bytes": 1589
+    },
+    {
+      "path": "docs/ARQUITECTURA.md",
+      "sha256": "d78e0b347bcad1c8a2ed2787baa10cc0d01765e419ddd4495e025efaa66e7a8d",
+      "bytes": 4823
+    },
+    {
+      "path": "docs/COBERTURA_EMPRESARIAL.md",
+      "sha256": "2f3f5d1638482b15f360b811bea5947395710f7588fb66577bbc7a50c5408d51",
+      "bytes": 2050
+    },
+    {
+      "path": "docs/CRITERIOS_DE_ACEPTACION.md",
+      "sha256": "5144006585a6b19a7b1bdaa032c8dd407c2cd79bbc6ce1d4636218fd75a53fa2",
+      "bytes": 2799
+    },
+    {
+      "path": "docs/DECISIONES_ABIERTAS.md",
+      "sha256": "fcbe6bdfbbf5d733bd666e48ca2e812ef53953067f34becf5fa06f37fbb3547d",
+      "bytes": 2758
+    },
+    {
+      "path": "docs/ESTADO_REAL.md",
+      "sha256": "fa9b904e485c63499bb318dfb4e95a0efb5a4048d395e4952f32fbebd43e314c",
+      "bytes": 977
+    },
+    {
+      "path": "docs/ESTANDARES_CONOCIMIENTO.md",
+      "sha256": "9f9c12e6a4673cf992e83fb0297286235c15f178fc49f2f02042f6793e7dca60",
+      "bytes": 1678
+    },
+    {
+      "path": "docs/FUENTES_Y_LICENCIAS.md",
+      "sha256": "e9fb61086436abba87056a3f1e4faf3a2510f24f9d45012a804bf31dea228d46",
+      "bytes": 3262
+    },
+    {
+      "path": "docs/GITHUB_Y_PRIVACIDAD.md",
+      "sha256": "bd2f91017fd684e14d36b42092e432b7cfdc492f8578b1d0f4781593333d2648",
+      "bytes": 1056
+    },
+    {
+      "path": "docs/HOJA_DE_RUTA.md",
+      "sha256": "393b17fff52a9e8173040cb3f36e79fa2256078a3d89585d6f92b763e93ab09e",
+      "bytes": 2993
+    },
+    {
+      "path": "docs/RESULTADOS_DE_PRUEBA.txt",
+      "sha256": "f50d88ac97fef4575bd0b7f593b7a6fee8c87d72f8f8e7169bcb685679e0a888",
+      "bytes": 2130
+    },
+    {
+      "path": "docs/SEGURIDAD_Y_DATOS.md",
+      "sha256": "252f4433c67b7db8e77fe967949e410a23dc0f05e7c0472f2194fa2f72efae63",
+      "bytes": 2667
+    },
+    {
+      "path": "ejemplos/README.md",
+      "sha256": "40455e239e76820b6d5bff2460d4147bd3909fe632c818ed6d05b0592d90180a",
+      "bytes": 732
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/.obsidian/templates.json",
+      "sha256": "f66024ef3b02ee72c6b1027e5c36e8756cc35bc5160a873b663a0bfd2c6df839",
+      "bytes": 82
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/00_Mapas/Mapa_de_empresa.md",
+      "sha256": "d57d21b632003355f58555fdf6811962e875c0921fc7ae14ce6abf8e9102ad41",
+      "bytes": 2038
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/00_Mapas/Mapa_de_relaciones.canvas",
+      "sha256": "e7865cd8b8879b4fc07240b9db5319bb807e559bee6acb8e4e5a9f2479286307",
+      "bytes": 2416
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/00_Mapas/Relaciones_de_conocimiento.md",
+      "sha256": "5ad67a72a3c9686a8b05208b02353bbd9c62e28e9befce24a6fb7930b33a9e82",
+      "bytes": 1028
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/10_Conocimiento/D03.md",
+      "sha256": "5964d6543198a19105d6ab5fd476fc6c3c430ec1ceece1773edaa297321be929",
+      "bytes": 1394
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/10_Conocimiento/X01-BRISA-001.md",
+      "sha256": "755a52f5fc49ce740a76938b304b2b4b7530e974fe2593047b0d02621a45e660",
+      "bytes": 994
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/10_Conocimiento/X04-BRISA-001.md",
+      "sha256": "71142725f0c9b315ae0a5ccd16e3b6b8e048d568cc1d22aded6efbb43e4576ef",
+      "bytes": 957
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/10_Conocimiento/X07-BRISA-001.md",
+      "sha256": "444b9ccac6dc5226d24bc539b54cd11ce78e516a212fa414cdd5e4a19afa1a11",
+      "bytes": 960
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/50_Fuentes/F-0100.md",
+      "sha256": "4545611b65a8a0a66cbe403ff8680656745331205adf4d5e88591ba726348219",
+      "bytes": 482
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/50_Fuentes/F-0101.md",
+      "sha256": "52d90f50273697963b85f2c94e36218bfcd3d9063aef7e99959f9aea7b151a45",
+      "bytes": 487
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Autoridades.md",
+      "sha256": "397f38ba085f88273e1b10acf8235f23e726106657643db11e750cb5399c7a80",
+      "bytes": 501
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Como_usar.md",
+      "sha256": "464d681afaa9dc11553c969089b8e4adfe0e46b9a19d6dfb36ba4d74ca37fb8b",
+      "bytes": 1236
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Estados_de_bloques.md",
+      "sha256": "9c08ecab2da7b5d21516400c199f4905a84eb99c4a2d7eb21a72e35a2ecbbce2",
+      "bytes": 1266
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Pendientes.md",
+      "sha256": "871596792d8a0fdd31dbb66407b00c75a18bb48aae6a4485cc3ebba6604f45c8",
+      "bytes": 515
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/D01_direccion_modelo_de_negocio_y_limites_estrategicos.md",
+      "sha256": "009d253c3cb7bc3d478bfcacea19ecf4b9feca40ba1b5ada7d559f72740d21a4",
+      "bytes": 2251
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/D02_conocimiento_del_mercado_clientes_y_marca.md",
+      "sha256": "94cdecd6f3ded8024ccd9d4a3504017143dd89b6ff65675c7fb25a6948ea11e8",
+      "bytes": 2181
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/D03_portafolio_y_sistema_comercial.md",
+      "sha256": "1e64925e34a7b920f0a185758b350f869a675a8776c33224dc2c137959e724c0",
+      "bytes": 2193
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/D04_ejecucion_experiencia_y_calidad.md",
+      "sha256": "ae2b3d9af5025d9aa78d202e05fa1a24ad44e5a81224917910daea99815e3f0a",
+      "bytes": 2137
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/D05_economia_caja_y_criterios_financieros.md",
+      "sha256": "c084b59d67d5889de4786907bd4583e6b35197761fb181749bc84ae4b128369a",
+      "bytes": 2163
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/D06_personas_reales_responsabilidades_y_facultades.md",
+      "sha256": "6bc772c2849921bfaa2ed787d8733ca33eba46d4cf6d697e6a951ca98eac6fb7",
+      "bytes": 2200
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/D07_riesgos_compromisos_y_dependencias_criticas.md",
+      "sha256": "8af0afa5c9505d98274b92a8e6bfcbfa8a1538598d065100242db54588eea5a7",
+      "bytes": 2195
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Decision.md",
+      "sha256": "fd2399b83c48435accce5279f3b4d7e30688c14528a1716b807af9e148a54eeb",
+      "bytes": 409
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Entidad.md",
+      "sha256": "f284cc001c9fa15921ad5522c1119d5ad1b6058ad7f11f98f7dfa11cd4e3aa9d",
+      "bytes": 334
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_acuerdo.md",
+      "sha256": "86a8c3ac4337c9ce4248bb8f4113fca61ac904e502039cf85ed686bc186fd7a4",
+      "bytes": 1209
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_caso.md",
+      "sha256": "63d152fa4d48fe36dace0b9c107772165b1419283c28b3755bbff29bd9375257",
+      "bytes": 1138
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_cliente_cuenta.md",
+      "sha256": "b0ea03d39b3119e17a6d07458add178553dd5791cd196dbf9509e7de245386cf",
+      "bytes": 1170
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_comunicacion.md",
+      "sha256": "1b35c62c48fa595801eaa76810862777fe658c8dc60205be5d7603eba4652394",
+      "bytes": 1131
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_consultoria.md",
+      "sha256": "6d018aa3b6eea11f69b45f117cac715895f368a344fc74660102d41ebe88ab34",
+      "bytes": 1186
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_decision.md",
+      "sha256": "774e6f58a731fe5fea185b79849d89ee6ea04c73a54ffe46d6349c1823838a0f",
+      "bytes": 1188
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_empresa.md",
+      "sha256": "3e0e485597cd91d43d7f5615bc3669def224a6e68b3a3615c61db2bf4d22ebd2",
+      "bytes": 1103
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_fuente.md",
+      "sha256": "e9c5b299c7494aabbf944efd5b1447703af1c60b3e030dff19702b91ca3d35f8",
+      "bytes": 1195
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_herramienta.md",
+      "sha256": "1fb76efea4bc16bd336cd5a3b7db632977017e62b2b69da5eace421a48d5fa07",
+      "bytes": 1166
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_implementacion.md",
+      "sha256": "451d45637b473d16a289c5a9fde4cec363b0fdaeef18cc68a6a775a419872c77",
+      "bytes": 1145
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_indicador.md",
+      "sha256": "a1a88575b8d81894c60f92cebf1a2471d70853ef69971fdfc13b19e93aedfcdb",
+      "bytes": 1113
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_investigacion.md",
+      "sha256": "6cecdad1318b4e0349e5a51e0507d004b0d638b40b3bde79aeb8237dc02cebe7",
+      "bytes": 1229
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_modelo_negocio.md",
+      "sha256": "3a33007030fadacd15322362a95ffc5f8e139724ad9b0829a31ff3df68c772ae",
+      "bytes": 1127
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_oferta.md",
+      "sha256": "99b1165dfded0061dc2b33a0365c2933634ea0d421cf1462a924cfe3fba97072",
+      "bytes": 1297
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_organizacion.md",
+      "sha256": "169a702a62f04fdc0c2df1e4b041e49333682638a19a7a0f4f3683ac5cfc0b3b",
+      "bytes": 1118
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_persona.md",
+      "sha256": "5acc9dec7ee888b924d61e458d330c84f7da6c89de49fe7817a7b62c1e8c156f",
+      "bytes": 1160
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_proceso.md",
+      "sha256": "e850fe0ef7e76f6db0273d65411d4b87b7c36700c28347ab4180628601e47c6f",
+      "bytes": 1157
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_producto.md",
+      "sha256": "829a0aa9d8df53a4cd6a2baad68bad468130a67e9b76809e8a68d6a8b656c794",
+      "bytes": 1148
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_propuesta_comercial.md",
+      "sha256": "b4d376ae11752145f4ee0424ac9ea1474c637c53688d97087fc7e31a90e44f46",
+      "bytes": 1208
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_protocolo.md",
+      "sha256": "a0e1cf8369c40b5fe0d1db9fb2270a8d80110af2296afa41075cb50ab0381717",
+      "bytes": 1103
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_proveedor.md",
+      "sha256": "4c2624addef8965ae2e1872aefbcd3d79a8a5a5d2a2111f12ed5e77978d20544",
+      "bytes": 1110
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_proyecto.md",
+      "sha256": "e5e8d9fb6bcf2a741eee4a0ca9b1da4f2ab21d5ef10cc2caf8777eadcd8f0a47",
+      "bytes": 1218
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_recurso.md",
+      "sha256": "6965093d9dfb49cb0f7d25f427b633eb54eda635f37b351857c356b5f8fe4c40",
+      "bytes": 1112
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_reunion.md",
+      "sha256": "06ec607997bfdadabb188c97b790a96a805769dd68bcf8d36965b1871d3e244e",
+      "bytes": 1152
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_servicio.md",
+      "sha256": "0365acc7873d99bc102659590b8f7b012355b3c4feec729a7821c60841792b61",
+      "bytes": 1111
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_sesion.md",
+      "sha256": "38e13318fa79c0c8f39e25e35c9f589dab1d85e894a6698f8e28ab63db5ddc67",
+      "bytes": 1116
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Ficha_tarea.md",
+      "sha256": "130322bafc594b4ad5722ddba540e0ca7d6dcd321d608a626fe8791ffd5f89a8",
+      "bytes": 1199
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Fuente.md",
+      "sha256": "d3d75398265bf706497f6a1a98a9aa42ae572fe173c845025635bbb3bb75b216",
+      "bytes": 292
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Proceso.md",
+      "sha256": "1098dfb18211bf02692049860cc4116c58f203ea3a480e95d9bc5bb02259f059",
+      "bytes": 389
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/Proyecto.md",
+      "sha256": "30d4838a229316825c2ef6a865057663141eca4a4df97f73018b002f97087f92",
+      "bytes": 333
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/X01_ficha_viva_de_oferta_individual.md",
+      "sha256": "81ee2256a00997f23b7882f894411a6977000166ab11aeb725761261f6204869",
+      "bytes": 2081
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/X02_proceso_o_instruccion_de_trabajo_autonoma.md",
+      "sha256": "31930abac56837d5675a9d1bbcb4c98e341344cd8db263762a95fd6f45fef606",
+      "bytes": 2049
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/X03_ficha_de_relacion_con_una_cuenta_o_cliente.md",
+      "sha256": "fac94e695fe98cf7b68376a4ec5a1950f98c73f237691dc6d56827f9968c4305",
+      "bytes": 2121
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/X04_expediente_de_proyecto_caso_o_episodio.md",
+      "sha256": "91633049518f5243494befcc360945ffb965107ac5dd91dff1b1f7b98bf0a867",
+      "bytes": 2177
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/X05_acuerdo_u_obligacion_autonoma.md",
+      "sha256": "30a41f183f1651c4c8d9e1a204e8dfababd1ac36df8927649f6e48c1886dd881",
+      "bytes": 2092
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/X06_recurso_sistema_o_proveedor_critico.md",
+      "sha256": "87ccec75ff3e4b367be89286ffd4bb848b86d96614253722c075fdc849cda66e",
+      "bytes": 2067
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Plantillas/X07_decision_experimento_o_leccion_con_identidad_propia.md",
+      "sha256": "77e0918f2b95a1049285b9481193f8dddf1ee6455fc9e7cf6702da799afbf7cf",
+      "bytes": 2106
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Pruebas_de_recuperacion.md",
+      "sha256": "03899ac21d7f02f5885429549761695c1593cf66be08c23f20715592d05f88cb",
+      "bytes": 818
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Traspasos/BRISA-SINTETICA/Reporte.md",
+      "sha256": "fa651a4d070421949f5aaf04ed84e22ce4a02e1ff6837673de0e11ebd3a14939",
+      "bytes": 594
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Traspasos/BRISA-SINTETICA/manifest.json",
+      "sha256": "8c8ca1cb824d501cdea238c3408a40f029ae62ffc55960e0f85139e74bea6b39",
+      "bytes": 10172
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Comercial.base",
+      "sha256": "8762f54e2dbfac4d8f25c6f757eb558838c85fea581883b501d0bb3a4fb9ef59",
+      "bytes": 385
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Comunicacion.base",
+      "sha256": "71261a45adb0223144b7b808bfea7eecada99c63decf3a6b6b77031896b5f1e0",
+      "bytes": 171
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Decisiones.base",
+      "sha256": "f5048c5b66b61a8629e5bb2b2300f4d7d79ef4bdc6608ecae67c502c86921a59",
+      "bytes": 199
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Documentos.base",
+      "sha256": "8e15904b1c6c8e908b1c9b3eadf7bed648796b5e261e325424df2cd208cb7351",
+      "bytes": 215
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Entidades.base",
+      "sha256": "95ba8d39396dbe802f2ea42c72ef4ecf10d107e3c2bd868cab859b90807b7117",
+      "bytes": 176
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Fuentes.base",
+      "sha256": "5a72eb17fa043dd51e18cbe81223369d31a6d1a0376ba315bb65a38f09e95a13",
+      "bytes": 192
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Fuentes_y_autoridad.base",
+      "sha256": "27a4869a8ef69d3a883f77a5506989ed76f37d93d8470c8325430cb27899caa4",
+      "bytes": 180
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Indicadores.base",
+      "sha256": "d509ab4bfc51a731b06da412f92fa2939e6d7ae0b8228bb7f75625824d77dd78",
+      "bytes": 144
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Investigacion_y_aprendizajes.base",
+      "sha256": "aee59a4d23151aaf371ffd5223002d96fe7ffe24d8816125877f22a21d222215",
+      "bytes": 201
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Ofertas.base",
+      "sha256": "80965383bc0c25e7da23bbbbac8bc6f79eef7eeee2808ca46f7e9f4d8c6656f4",
+      "bytes": 493
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Personas_y_organizaciones.base",
+      "sha256": "5c1219c70d4d3549e2d938a7214b0a3f44a7ffd39a9a2a02b1f12069e35a7ad1",
+      "bytes": 272
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Procesos_y_protocolos.base",
+      "sha256": "a0e2faf06dd7550abfa88f9adcc51fd394ddcf429b76ec65b594dc0d5e2cb969",
+      "bytes": 188
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Proyectos.base",
+      "sha256": "f0fb8c6cf49f18a060555a79806e08d1b7dbf74530d35527a115e02031908ef3",
+      "bytes": 381
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Recursos_y_dependencias.base",
+      "sha256": "d736b0469f216e7e36f70edb55eac29ddd9054d16a271b73e4385bb48f4fb84f",
+      "bytes": 263
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Reuniones_y_sesiones.base",
+      "sha256": "18e7f8cd2bc515f359dc5fc19db4dc3a02bc8adc1514cee4f464c5affdc89d77",
+      "bytes": 187
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/Vistas/Tareas.base",
+      "sha256": "c536a101d49772fb1a1211d5088285774f1b66619d97109d5fdadab8d194832d",
+      "bytes": 335
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/config_empresa.yaml",
+      "sha256": "7c937dca02b7e08205e40edf07063b81333bd0028a9d03c1480b115e0642149d",
+      "bytes": 205
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/90_Sistema/grafo.json",
+      "sha256": "4c63e72ab3c8e7ea745ba76528befae71eafba9c78331af634451f82d1e25299",
+      "bytes": 11976
+    },
+    {
+      "path": "ejemplos/boveda_demo/Brisa_Modular/Inicio.md",
+      "sha256": "91140062d68a15885c51d4e09e900fe77afbd446839d1d3591f25cdee1770334",
+      "bytes": 2334
+    },
+    {
+      "path": "ejemplos/escenarios/01_emprendimiento_sin_ventas.md",
+      "sha256": "6d77516779b4c0b24b1f2bf15fa6a1b55597b2067fe166204612ef9a2c8c10cb",
+      "bytes": 966
+    },
+    {
+      "path": "ejemplos/escenarios/02_pyme_hibrida_servicios_y_productos.md",
+      "sha256": "30f6e5f7ebd009f647039f8a537caa9ac66fcf7e21308301f353893ac23bcd67",
+      "bytes": 823
+    },
+    {
+      "path": "ejemplos/escenarios/03_preferencia_contractual_precio_historia.md",
+      "sha256": "576ca45148b4679a61b7ae299da37cbb39545009a692ca613a28659a977dcaeb",
+      "bytes": 1049
+    },
+    {
+      "path": "ejemplos/traspaso_sintetico/Ejemplo_sintetico/D03_Portafolio.md",
+      "sha256": "e036e0aee91a6c563023e62b354a9ae040773c19bf0bacc4376154b8dc9d59ce",
+      "bytes": 664
+    },
+    {
+      "path": "ejemplos/traspaso_sintetico/Ejemplo_sintetico/Fuente_F-0100_Llamada_Sintetica.md",
+      "sha256": "ac81189383b12aa998d683355d529154c38bf02e3eb9445f1aceb235abb22642",
+      "bytes": 442
+    },
+    {
+      "path": "ejemplos/traspaso_sintetico/Ejemplo_sintetico/Fuente_F-0101_Tarifa_Aprobada_Sintetica.md",
+      "sha256": "1a70c8b52724e76cf669b9d65e6f91d647040436dd8e0592e1581d8e47c42185",
+      "bytes": 360
+    },
+    {
+      "path": "ejemplos/traspaso_sintetico/Ejemplo_sintetico/X01_Oferta.md",
+      "sha256": "26df25315e0d7095b1430facead132ed03435affebdfc4400daf49a42496ee40",
+      "bytes": 543
+    },
+    {
+      "path": "ejemplos/traspaso_sintetico/Ejemplo_sintetico/X04_Caso.md",
+      "sha256": "2cbcff00499fb7472c87ff57f59cf72b676f8c7e91162f7d6cf2c03cb22f12c2",
+      "bytes": 409
+    },
+    {
+      "path": "ejemplos/traspaso_sintetico/Ejemplo_sintetico/X07_Experimento.md",
+      "sha256": "d767ad3c522f0280eb7b6cc7a4ca76746608cb3a82bc80654cf6b4a7c19c7000",
+      "bytes": 512
+    },
+    {
+      "path": "ejemplos/traspaso_sintetico/Esquema_Manifiesto_vNext.schema.json",
+      "sha256": "d1d667166817141b737c2cb6f581ca5a75868b0fa2533d58c53992a54fca434c",
+      "bytes": 13311
+    },
+    {
+      "path": "ejemplos/traspaso_sintetico/manifest.json",
+      "sha256": "8c8ca1cb824d501cdea238c3408a40f029ae62ffc55960e0f85139e74bea6b39",
+      "bytes": 10172
+    },
+    {
+      "path": "guia/EVOLUCION_PARA_CODEX.md",
+      "sha256": "ed33954e1e8dbe8d263da276dba0b2f4c1d201a74f77a19bd8c3a1a719ee1808",
+      "bytes": 1716
+    },
+    {
+      "path": "guia/PRIMERA_EMPRESA_CON_CODEX.md",
+      "sha256": "9e2dca816893ab4801ed3003629eca6043fe1f4f709372da475a6d2b84f37f0d",
+      "bytes": 6174
+    },
+    {
+      "path": "investigacion/diseno-D0.1/00_Alcance_y_Principios.md",
+      "sha256": "1de9ef4825ca47a2386b09973ed2c294d8638433eeb73f79e1643345a1184c41",
+      "bytes": 5506
+    },
+    {
+      "path": "investigacion/diseno-D0.1/01_Usuarios_y_Formas_de_Uso.md",
+      "sha256": "8aa84707db6818e44ba15a6fe90755571c119fd0f74bd3b5ec95b71bc009e384",
+      "bytes": 5749
+    },
+    {
+      "path": "investigacion/diseno-D0.1/02_Capacidades_y_Cobertura.md",
+      "sha256": "437c96b31f172fc5e44d5d11dada93ca7c66728a0caf154afd83abbe2929c2c1",
+      "bytes": 7700
+    },
+    {
+      "path": "investigacion/diseno-D0.1/03_Conocimiento_Autoridad_y_Entidades.md",
+      "sha256": "fe5917be4961d862fd190e8d1bcdeaa955e3ab190037e9c58d950407696a9635",
+      "bytes": 10700
+    },
+    {
+      "path": "investigacion/diseno-D0.1/04_Obsidian_Plantillas_y_Recursos.md",
+      "sha256": "c3b58c393c56df85913ea2bf3b892b3f9949d6543b74f71d1c61fbaeea0a7d59",
+      "bytes": 7444
+    },
+    {
+      "path": "investigacion/diseno-D0.1/05_Arquitectura_Agentica_Conceptual.md",
+      "sha256": "57f1d6e22b6b477258152850cb1aa78bbf055df8abc12bb1a78c52a53de0af76",
+      "bytes": 7135
+    },
+    {
+      "path": "investigacion/diseno-D0.1/06_Incorporacion_de_Activos.md",
+      "sha256": "5fd2298f7919bb83efba7bf7a29623b93a9fd412c13d9a244b0a18e616c381ef",
+      "bytes": 5270
+    },
+    {
+      "path": "investigacion/diseno-D0.1/07_Inventario_y_Proveniencia.md",
+      "sha256": "b4f6fba31df60247e39e3741ead043207687b7f323d3f5fb91b3152257c1aa3a",
+      "bytes": 4614
+    },
+    {
+      "path": "investigacion/diseno-D0.1/08_Decisiones_Riesgos_y_Pruebas.md",
+      "sha256": "3eda19a410822e5ffd7a62453d8563fa4169bb994653d1845e9589f362f51c73",
+      "bytes": 6407
+    },
+    {
+      "path": "investigacion/diseno-D0.1/09_Programa_de_Consolidacion.md",
+      "sha256": "4e8c86ef4a7679cae74fcd0f18e65070f561f1bf275869fda44d8a5174b99966",
+      "bytes": 4271
+    },
+    {
+      "path": "investigacion/diseno-D0.1/10_Casos_de_Prueba_Conceptuales.md",
+      "sha256": "263cc73be34e8193a3e45330e833de300baa152287b43e2b1dd36c09b968b84b",
+      "bytes": 6061
+    },
+    {
+      "path": "investigacion/diseno-D0.1/decisiones_abiertas.csv",
+      "sha256": "d973a82aa87a9d0eec5a69da52afc51c8ca8808f0c864db6a431f11865f06ea6",
+      "bytes": 3370
+    },
+    {
+      "path": "investigacion/videos-2026-10/antipatrones_y_reglas_de_investigacion.md",
+      "sha256": "c0a8a2aa01f8673b936f495b6f8f07830280b6ab251d18e0ad32f2a585c7b99e",
+      "bytes": 2275
+    },
+    {
+      "path": "investigacion/videos-2026-10/autoridad_y_gobernanza_del_conocimiento.md",
+      "sha256": "32c371b19a0f14852b4a172166e3a15905a56fca26a3f62b457ac037563fd605",
+      "bytes": 4155
+    },
+    {
+      "path": "investigacion/videos-2026-10/catalogo_fuentes.csv",
+      "sha256": "71af76a454f1c96f2bc3162a8ee360ea02fbd9f6aaf530ffa77c788bdf365e27",
+      "bytes": 1264
+    },
+    {
+      "path": "investigacion/videos-2026-10/contraste_con_metodologia_vNext.md",
+      "sha256": "9b96a4043753e2f9c70065ba8573274aff6034463cb6d5418ed5f2d182d86653",
+      "bytes": 3670
+    },
+    {
+      "path": "investigacion/videos-2026-10/convergencias_y_discrepancias.md",
+      "sha256": "36f9cd62833ed40d61a725db26009c76376cb527070a9501da8abbe2b4916f6f",
+      "bytes": 5123
+    },
+    {
+      "path": "investigacion/videos-2026-10/evaluacion_plugins_y_fuentes_oficiales.md",
+      "sha256": "b6426975bd152ed7dec3da7bfc7c92e9070d9061ad9feaab6afdb030b1e939a1",
+      "bytes": 4354
+    },
+    {
+      "path": "investigacion/videos-2026-10/hallazgos_video.json",
+      "sha256": "5ef82152a68002f3bb020a46e21fb4cf25b40fa24fc36f332288fecbeab21dd4",
+      "bytes": 37152
+    },
+    {
+      "path": "metodologia/vNext-1.0R/Biblioteca_Prompts_vNext_1_0R.md",
+      "sha256": "77b171a61ce3d44ac77be538ccba41398ec1196f571909e3cd8a6c3187ecd28d",
+      "bytes": 205887
+    },
+    {
+      "path": "metodologia/vNext-1.0R/CAMBIOS_vNext_1_0R.md",
+      "sha256": "8ee55179d588b381eb8bb4b48df38fe494ba63e8dd00d6c53618f11044b09469",
+      "bytes": 1269
+    },
+    {
+      "path": "metodologia/vNext-1.0R/Catalogo_Documentos_Canonicos_vNext_1_0R.md",
+      "sha256": "bc088338b35b51b26146f0acd8691ad05ad5536b094c66a0485336028bf165d1",
+      "bytes": 62498
+    },
+    {
+      "path": "metodologia/vNext-1.0R/Contrato_Traspaso_Obsidian_Agentes_vNext.md",
+      "sha256": "96b5ca008b9aecd556ecd5913b63f8bcbd58dc151e10d21b0f3b21eaaec4c88c",
+      "bytes": 15650
+    },
+    {
+      "path": "metodologia/vNext-1.0R/Guia_Metodologia_Documentacion_Empresarial_vNext_1_0R.md",
+      "sha256": "d9a46c9d7ee858884247c67aff2e5ffa9a03f17dc461ab05117618d9ded1219f",
+      "bytes": 304723
+    },
+    {
+      "path": "metodologia/vNext-1.0R/Informe_de_Investigacion_y_Decisiones.md",
+      "sha256": "5ad93f377e2522ae7639a0619b5ced7a764b412fbd33033de9ef5f47a210c780",
+      "bytes": 45461
+    },
+    {
+      "path": "metodologia/vNext-1.0R/Matriz_Fuentes_Frameworks_Documentos.csv",
+      "sha256": "c4fd94281cc058c80ad326a29c055e14a45769969b96de858034020dcebcc82e",
+      "bytes": 19889
+    },
+    {
+      "path": "metodologia/vNext-1.0R/Prompt_Maestro_Codex_Ejecutar_vNext_1_0R.txt",
+      "sha256": "4304e4ee5d9be397f1f19e925a9400c186eb00db847f59707918cfa97ec5f19a",
+      "bytes": 1754
+    },
+    {
+      "path": "modelo/clases_documentales.json",
+      "sha256": "86dfa3cc8aabc6ed6a5d8d1974229029bae63790f1a82035b56f1794f03b4bea",
+      "bytes": 24717
+    },
+    {
+      "path": "modelo/rutas_de_inicio.json",
+      "sha256": "8f6192b3b6a90bb0161e8a45d8afefc11e928dd1d1541e9cd97271cd57b37625",
+      "bytes": 3379
+    },
+    {
+      "path": "modelo/tipos_entidad.json",
+      "sha256": "92cfc49be0763871e79e5debc59e4c712775927810a40a1f0465a9c879721d68",
+      "bytes": 30877
+    },
+    {
+      "path": "plantilla_boveda/.obsidian/templates.json",
+      "sha256": "f66024ef3b02ee72c6b1027e5c36e8756cc35bc5160a873b663a0bfd2c6df839",
+      "bytes": 82
+    },
+    {
+      "path": "plantilla_boveda/00_Mapas/Mapa_de_empresa.md",
+      "sha256": "9d9e586bb76842e154ada8bf7a9c8c855087e285e64f63e11e057530fd75b361",
+      "bytes": 2030
+    },
+    {
+      "path": "plantilla_boveda/00_Mapas/Relaciones_de_conocimiento.md",
+      "sha256": "043ecb3201ea8d213378680a24bf4eb9b3f8c439ce643f2afa167cb5d43b0f72",
+      "bytes": 311
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Autoridades.md",
+      "sha256": "575b0095014a53a19ec74d4104d663cecae740a0581c193816aadecdb36c0ffc",
+      "bytes": 241
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Como_usar.md",
+      "sha256": "464d681afaa9dc11553c969089b8e4adfe0e46b9a19d6dfb36ba4d74ca37fb8b",
+      "bytes": 1236
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Pendientes.md",
+      "sha256": "9aa19bff9cc75aba2e6d72c5e5d8de8bcfecf70ccfa0435ef0b556f847171f5e",
+      "bytes": 204
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/D01_direccion_modelo_de_negocio_y_limites_estrategicos.md",
+      "sha256": "009d253c3cb7bc3d478bfcacea19ecf4b9feca40ba1b5ada7d559f72740d21a4",
+      "bytes": 2251
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/D02_conocimiento_del_mercado_clientes_y_marca.md",
+      "sha256": "94cdecd6f3ded8024ccd9d4a3504017143dd89b6ff65675c7fb25a6948ea11e8",
+      "bytes": 2181
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/D03_portafolio_y_sistema_comercial.md",
+      "sha256": "1e64925e34a7b920f0a185758b350f869a675a8776c33224dc2c137959e724c0",
+      "bytes": 2193
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/D04_ejecucion_experiencia_y_calidad.md",
+      "sha256": "ae2b3d9af5025d9aa78d202e05fa1a24ad44e5a81224917910daea99815e3f0a",
+      "bytes": 2137
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/D05_economia_caja_y_criterios_financieros.md",
+      "sha256": "c084b59d67d5889de4786907bd4583e6b35197761fb181749bc84ae4b128369a",
+      "bytes": 2163
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/D06_personas_reales_responsabilidades_y_facultades.md",
+      "sha256": "6bc772c2849921bfaa2ed787d8733ca33eba46d4cf6d697e6a951ca98eac6fb7",
+      "bytes": 2200
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/D07_riesgos_compromisos_y_dependencias_criticas.md",
+      "sha256": "8af0afa5c9505d98274b92a8e6bfcbfa8a1538598d065100242db54588eea5a7",
+      "bytes": 2195
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Decision.md",
+      "sha256": "fd2399b83c48435accce5279f3b4d7e30688c14528a1716b807af9e148a54eeb",
+      "bytes": 409
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Entidad.md",
+      "sha256": "f284cc001c9fa15921ad5522c1119d5ad1b6058ad7f11f98f7dfa11cd4e3aa9d",
+      "bytes": 334
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_acuerdo.md",
+      "sha256": "86a8c3ac4337c9ce4248bb8f4113fca61ac904e502039cf85ed686bc186fd7a4",
+      "bytes": 1209
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_caso.md",
+      "sha256": "63d152fa4d48fe36dace0b9c107772165b1419283c28b3755bbff29bd9375257",
+      "bytes": 1138
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_cliente_cuenta.md",
+      "sha256": "b0ea03d39b3119e17a6d07458add178553dd5791cd196dbf9509e7de245386cf",
+      "bytes": 1170
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_comunicacion.md",
+      "sha256": "1b35c62c48fa595801eaa76810862777fe658c8dc60205be5d7603eba4652394",
+      "bytes": 1131
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_consultoria.md",
+      "sha256": "6d018aa3b6eea11f69b45f117cac715895f368a344fc74660102d41ebe88ab34",
+      "bytes": 1186
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_decision.md",
+      "sha256": "774e6f58a731fe5fea185b79849d89ee6ea04c73a54ffe46d6349c1823838a0f",
+      "bytes": 1188
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_empresa.md",
+      "sha256": "3e0e485597cd91d43d7f5615bc3669def224a6e68b3a3615c61db2bf4d22ebd2",
+      "bytes": 1103
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_fuente.md",
+      "sha256": "e9c5b299c7494aabbf944efd5b1447703af1c60b3e030dff19702b91ca3d35f8",
+      "bytes": 1195
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_herramienta.md",
+      "sha256": "1fb76efea4bc16bd336cd5a3b7db632977017e62b2b69da5eace421a48d5fa07",
+      "bytes": 1166
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_implementacion.md",
+      "sha256": "451d45637b473d16a289c5a9fde4cec363b0fdaeef18cc68a6a775a419872c77",
+      "bytes": 1145
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_indicador.md",
+      "sha256": "a1a88575b8d81894c60f92cebf1a2471d70853ef69971fdfc13b19e93aedfcdb",
+      "bytes": 1113
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_investigacion.md",
+      "sha256": "6cecdad1318b4e0349e5a51e0507d004b0d638b40b3bde79aeb8237dc02cebe7",
+      "bytes": 1229
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_modelo_negocio.md",
+      "sha256": "3a33007030fadacd15322362a95ffc5f8e139724ad9b0829a31ff3df68c772ae",
+      "bytes": 1127
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_oferta.md",
+      "sha256": "99b1165dfded0061dc2b33a0365c2933634ea0d421cf1462a924cfe3fba97072",
+      "bytes": 1297
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_organizacion.md",
+      "sha256": "169a702a62f04fdc0c2df1e4b041e49333682638a19a7a0f4f3683ac5cfc0b3b",
+      "bytes": 1118
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_persona.md",
+      "sha256": "5acc9dec7ee888b924d61e458d330c84f7da6c89de49fe7817a7b62c1e8c156f",
+      "bytes": 1160
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_proceso.md",
+      "sha256": "e850fe0ef7e76f6db0273d65411d4b87b7c36700c28347ab4180628601e47c6f",
+      "bytes": 1157
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_producto.md",
+      "sha256": "829a0aa9d8df53a4cd6a2baad68bad468130a67e9b76809e8a68d6a8b656c794",
+      "bytes": 1148
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_propuesta_comercial.md",
+      "sha256": "b4d376ae11752145f4ee0424ac9ea1474c637c53688d97087fc7e31a90e44f46",
+      "bytes": 1208
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_protocolo.md",
+      "sha256": "a0e1cf8369c40b5fe0d1db9fb2270a8d80110af2296afa41075cb50ab0381717",
+      "bytes": 1103
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_proveedor.md",
+      "sha256": "4c2624addef8965ae2e1872aefbcd3d79a8a5a5d2a2111f12ed5e77978d20544",
+      "bytes": 1110
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_proyecto.md",
+      "sha256": "e5e8d9fb6bcf2a741eee4a0ca9b1da4f2ab21d5ef10cc2caf8777eadcd8f0a47",
+      "bytes": 1218
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_recurso.md",
+      "sha256": "6965093d9dfb49cb0f7d25f427b633eb54eda635f37b351857c356b5f8fe4c40",
+      "bytes": 1112
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_reunion.md",
+      "sha256": "06ec607997bfdadabb188c97b790a96a805769dd68bcf8d36965b1871d3e244e",
+      "bytes": 1152
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_servicio.md",
+      "sha256": "0365acc7873d99bc102659590b8f7b012355b3c4feec729a7821c60841792b61",
+      "bytes": 1111
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_sesion.md",
+      "sha256": "38e13318fa79c0c8f39e25e35c9f589dab1d85e894a6698f8e28ab63db5ddc67",
+      "bytes": 1116
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Ficha_tarea.md",
+      "sha256": "130322bafc594b4ad5722ddba540e0ca7d6dcd321d608a626fe8791ffd5f89a8",
+      "bytes": 1199
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Fuente.md",
+      "sha256": "d3d75398265bf706497f6a1a98a9aa42ae572fe173c845025635bbb3bb75b216",
+      "bytes": 292
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Proceso.md",
+      "sha256": "1098dfb18211bf02692049860cc4116c58f203ea3a480e95d9bc5bb02259f059",
+      "bytes": 389
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/Proyecto.md",
+      "sha256": "30d4838a229316825c2ef6a865057663141eca4a4df97f73018b002f97087f92",
+      "bytes": 333
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/X01_ficha_viva_de_oferta_individual.md",
+      "sha256": "81ee2256a00997f23b7882f894411a6977000166ab11aeb725761261f6204869",
+      "bytes": 2081
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/X02_proceso_o_instruccion_de_trabajo_autonoma.md",
+      "sha256": "31930abac56837d5675a9d1bbcb4c98e341344cd8db263762a95fd6f45fef606",
+      "bytes": 2049
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/X03_ficha_de_relacion_con_una_cuenta_o_cliente.md",
+      "sha256": "fac94e695fe98cf7b68376a4ec5a1950f98c73f237691dc6d56827f9968c4305",
+      "bytes": 2121
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/X04_expediente_de_proyecto_caso_o_episodio.md",
+      "sha256": "91633049518f5243494befcc360945ffb965107ac5dd91dff1b1f7b98bf0a867",
+      "bytes": 2177
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/X05_acuerdo_u_obligacion_autonoma.md",
+      "sha256": "30a41f183f1651c4c8d9e1a204e8dfababd1ac36df8927649f6e48c1886dd881",
+      "bytes": 2092
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/X06_recurso_sistema_o_proveedor_critico.md",
+      "sha256": "87ccec75ff3e4b367be89286ffd4bb848b86d96614253722c075fdc849cda66e",
+      "bytes": 2067
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Plantillas/X07_decision_experimento_o_leccion_con_identidad_propia.md",
+      "sha256": "77e0918f2b95a1049285b9481193f8dddf1ee6455fc9e7cf6702da799afbf7cf",
+      "bytes": 2106
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Pruebas_de_recuperacion.md",
+      "sha256": "a9779b82e9c2f7afa7fc5bfa51d9b5c372b9a2aaddd1df62f4c10907b8fe8efe",
+      "bytes": 237
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Comercial.base",
+      "sha256": "8762f54e2dbfac4d8f25c6f757eb558838c85fea581883b501d0bb3a4fb9ef59",
+      "bytes": 385
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Comunicacion.base",
+      "sha256": "71261a45adb0223144b7b808bfea7eecada99c63decf3a6b6b77031896b5f1e0",
+      "bytes": 171
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Decisiones.base",
+      "sha256": "f5048c5b66b61a8629e5bb2b2300f4d7d79ef4bdc6608ecae67c502c86921a59",
+      "bytes": 199
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Documentos.base",
+      "sha256": "8e15904b1c6c8e908b1c9b3eadf7bed648796b5e261e325424df2cd208cb7351",
+      "bytes": 215
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Entidades.base",
+      "sha256": "95ba8d39396dbe802f2ea42c72ef4ecf10d107e3c2bd868cab859b90807b7117",
+      "bytes": 176
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Fuentes.base",
+      "sha256": "5a72eb17fa043dd51e18cbe81223369d31a6d1a0376ba315bb65a38f09e95a13",
+      "bytes": 192
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Fuentes_y_autoridad.base",
+      "sha256": "27a4869a8ef69d3a883f77a5506989ed76f37d93d8470c8325430cb27899caa4",
+      "bytes": 180
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Indicadores.base",
+      "sha256": "d509ab4bfc51a731b06da412f92fa2939e6d7ae0b8228bb7f75625824d77dd78",
+      "bytes": 144
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Investigacion_y_aprendizajes.base",
+      "sha256": "aee59a4d23151aaf371ffd5223002d96fe7ffe24d8816125877f22a21d222215",
+      "bytes": 201
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Ofertas.base",
+      "sha256": "80965383bc0c25e7da23bbbbac8bc6f79eef7eeee2808ca46f7e9f4d8c6656f4",
+      "bytes": 493
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Personas_y_organizaciones.base",
+      "sha256": "5c1219c70d4d3549e2d938a7214b0a3f44a7ffd39a9a2a02b1f12069e35a7ad1",
+      "bytes": 272
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Procesos_y_protocolos.base",
+      "sha256": "a0e2faf06dd7550abfa88f9adcc51fd394ddcf429b76ec65b594dc0d5e2cb969",
+      "bytes": 188
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Proyectos.base",
+      "sha256": "f0fb8c6cf49f18a060555a79806e08d1b7dbf74530d35527a115e02031908ef3",
+      "bytes": 381
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Recursos_y_dependencias.base",
+      "sha256": "d736b0469f216e7e36f70edb55eac29ddd9054d16a271b73e4385bb48f4fb84f",
+      "bytes": 263
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Reuniones_y_sesiones.base",
+      "sha256": "18e7f8cd2bc515f359dc5fc19db4dc3a02bc8adc1514cee4f464c5affdc89d77",
+      "bytes": 187
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/Vistas/Tareas.base",
+      "sha256": "c536a101d49772fb1a1211d5088285774f1b66619d97109d5fdadab8d194832d",
+      "bytes": 335
+    },
+    {
+      "path": "plantilla_boveda/90_Sistema/config_empresa.yaml",
+      "sha256": "c5050365946ecfa2a9119ddebc3fc19eae735ec6090e7c1aa17c9ddb35154fa6",
+      "bytes": 200
+    },
+    {
+      "path": "plantilla_boveda/Inicio.md",
+      "sha256": "eda751ab4bb263e064bae10f0f260c2833aef37978c51268fa94409d535b557f",
+      "bytes": 2325
+    },
+    {
+      "path": "recursos/registro_plugins.json",
+      "sha256": "f8ac20521c2072ba8960df882c32b506d5cee976dc1fbb0c6b0df8765f31cb46",
+      "bytes": 2794
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "f004287d0111155ae16d3dd31e5696abbe6515a4407a0a564542180efaa0c4d5",
+      "bytes": 34
+    },
+    {
+      "path": "scripts/auditar_paquete.py",
+      "sha256": "e3b0ae3775beabf4a411e795d8ed10790ef426198723daffca143d5e6f5331ed",
+      "bytes": 2991
+    },
+    {
+      "path": "scripts/cerebro.py",
+      "sha256": "51beb36dd708ed4d05200f88d3e2f1f1153d63960d1a759defbb07db47ee9c99",
+      "bytes": 7498
+    },
+    {
+      "path": "scripts/crear_instancia.py",
+      "sha256": "a4a9b461988f3454e4dedb39c540d4eff522016829bb2a1a5180361115b72e96",
+      "bytes": 2032
+    },
+    {
+      "path": "scripts/doctor_preflight.py",
+      "sha256": "9d7a13307145d16bceda17c66a09e01569a2d68335c383d43d019a6ab00eed07",
+      "bytes": 1842
+    },
+    {
+      "path": "scripts/exportar_grafo.py",
+      "sha256": "51c45b87e040e3e46d529e230a5e366135fa119adea040b47880fafd62ff493d",
+      "bytes": 3603
+    },
+    {
+      "path": "scripts/importar_traspaso.py",
+      "sha256": "6a9d37748ce665c3b2df6952d43c682a0d1118dc758336e7c402c9fef7fe5b65",
+      "bytes": 14340
+    },
+    {
+      "path": "scripts/lib_canvas.py",
+      "sha256": "2d0cd5b70e11f3c59db4449ebc2e72dd75f70a540c3e8627f6efa4a3f781c017",
+      "bytes": 1773
+    },
+    {
+      "path": "scripts/lib_ce.py",
+      "sha256": "aa97a5f5d21e1ae7179aed24a99263a94f4c12a1e3535e408dd2b170f2a7dfa2",
+      "bytes": 2397
+    },
+    {
+      "path": "scripts/operacion.py",
+      "sha256": "c5c6559f0e40b8463e8d436f0be672dc0b52592cfc47d7132edebfd0cb9b38b6",
+      "bytes": 17492
+    },
+    {
+      "path": "scripts/prueba_integral.py",
+      "sha256": "c2e46b9c18addedab7ac32a3a51d03825134c0ce73fdf52ab123eadd8c5035f9",
+      "bytes": 2185
+    },
+    {
+      "path": "scripts/validar_boveda.py",
+      "sha256": "e90e20676f68ba15ae54b784153388a419824d879f56eb5903be07f08d0c7622",
+      "bytes": 5150
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "9081a96bde6c555d68a605ae7865fd85740b300c44083444d0c06b45f411d418",
+      "bytes": 4593
+    },
+    {
+      "path": "tests/test_entrega.py",
+      "sha256": "f34a2cfd6352f0f158ce6b77931bf7a12ba4fcb888bfc721217592843114f0b7",
+      "bytes": 2049
+    },
+    {
+      "path": "tests/test_operacion.py",
+      "sha256": "6af0ce2a822e19e4dfd7079e692704c34fdafdede2d3facef0c916c9aedcb4bf",
+      "bytes": 9758
+    }
+  ]
+}

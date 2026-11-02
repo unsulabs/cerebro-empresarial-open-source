@@ -1,0 +1,66 @@
+CEREBRO EMPRESARIAL v0.2.0-alpha — EJECUCIÓN DE PRUEBAS (UTC 2026-10-28T03:10:16.652697+00:00)
+
+Entorno: Python 3.13.5, linux.
+Suite: 34/34 PASS — `python -m unittest discover -s tests -v`.
+Smoke: PASS — `python scripts/prueba_integral.py`.
+Doctor sin librerías: PASS — `python -S scripts/cerebro.py doctor`.
+Auditoría preventiva: PASS — `python scripts/auditar_paquete.py`.
+
+Prueba integral:
+{
+  "resultado": "PASS",
+  "empresa": "SINTETICA",
+  "importacion": {
+    "empresa": "BRISA-SINTETICA",
+    "documentos": 4,
+    "bloques": 5,
+    "fuentes_referenciadas": 2,
+    "relaciones": 3,
+    "pruebas_semanticas_pendientes": 3
+  },
+  "notas": 19,
+  "ids": 19,
+  "bloques": 5,
+  "aristas": 60,
+  "autoridad": "candidato_para_verificar",
+  "propuesta_no_destructiva": true,
+  "continuidad": "2026-10-28_SES-96D8BFB03A95.md",
+  "limite": "No prueba Obsidian GUI, permisos reales ni recuperación semántica"
+}
+
+
+Doctor:
+{
+  "producto": "Cerebro Empresarial 0.2.0-alpha",
+  "so": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "recomendado_python": "3.10+",
+  "directorio_trabajo": "/mnt/data/work_repo/cerebro-empresarial",
+  "dependencias_python": {
+    "yaml": "NO INSTALADO",
+    "jsonschema": "NO INSTALADO"
+  },
+  "obsidian_ruta_cli": null,
+  "candidatos_obsidian": [],
+  "obsidian_version": "NO VERIFICADO",
+  "obsidian_gui": "NO VERIFICADO",
+  "bases": "NO VERIFICADO",
+  "templates": "NO VERIFICADO",
+  "acceso_a_archivos_empresariales": "NO VERIFICADO",
+  "instalacion_real": "NO HECHA POR ESTE COMANDO",
+  "siguiente": "Pedir autorización de instalaciones y ruta antes de cualquier escritura"
+}
+
+
+Auditoría:
+{
+  "estado": "PASS",
+  "archivos_texto_inspeccionados": 210,
+  "problemas": [],
+  "limite": "No inspecciona historial Git, licencias completas ni contenido semántico sensible. Revisar diff, permisos y datos antes de publicar."
+}
+
+
+LIMITACIONES NO PROBADAS: GUI de Obsidian, instalación/autenticación de Codex en Mac/Windows/Linux real,
+recuperación semántica agente, privacidad multiusuario, migraciones de instancias anteriores y
+aplicación automática de cambios aprobados.
